@@ -1,0 +1,735 @@
+.locofy_inicio-bandeja-de-entrada {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-dimgray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 34px var(--padding-5) var(--padding-0);
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 10.5px;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+}
+.locofy_image-1-group {
+  width: var(--width-622);
+  margin: 0 !important;
+  position: absolute;
+  top: 120px;
+  left: 5px;
+  display: flex;
+  align-items: flex-start;
+  isolation: isolate;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.locofy_image-1-icon3,
+.locofy_image-2-icon3 {
+  border-radius: var(--br-20);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.locofy_image-1-icon3 {
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.locofy_image-2-icon3 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.locofy_about-rect,
+.locofy_rec {
+  position: absolute;
+  margin: 0 !important;
+  border-radius: var(--br-10);
+  z-index: 3;
+}
+.locofy_rec {
+  height: 46px;
+  width: 153px;
+  top: 77px;
+  left: 31px;
+  background-color: var(--color-darkgreen);
+}
+.locofy_about-rect {
+  height: var(--height-31);
+  width: var(--width-117);
+  top: 10px;
+  right: 194px;
+  background-color: var(--color-seagreen-200);
+}
+.locofy_inicio-bandeja-de-entrada-child {
+  align-self: stretch;
+  height: var(--height-86);
+  position: relative;
+  border-radius: var(--br-20);
+  background-color: var(--color-seagreen-200);
+  display: none;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.locofy_inicio-bandeja-de-entrada-item {
+  width: var(--width-185);
+  height: var(--height-27);
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  z-index: 5;
+  flex-shrink: 0;
+}
+.locofy_inicio-bandeja-de-entrada-inner {
+  width: 153px;
+  height: 46px;
+  position: relative;
+  border-radius: var(--br-10);
+  background-color: var(--color-darkgreen);
+  display: none;
+  z-index: 6;
+  flex-shrink: 0;
+}
+.locofy_inicio-bandeja-de-entrada-child2 {
+  width: var(--width-117);
+  height: var(--height-31);
+  position: relative;
+  border-radius: var(--br-10);
+  background-color: var(--color-seagreen-200);
+  display: none;
+  z-index: 8;
+  flex-shrink: 0;
+}
+.locofy_frame-child4,
+.locofy_frame-section {
+  border-radius: var(--br-20);
+  background-color: var(--color-seagreen-200);
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.locofy_frame-section {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  padding: var(--padding-0) 21px var(--padding-5) 31px;
+  box-sizing: border-box;
+  position: sticky;
+  isolation: isolate;
+  gap: 42px;
+  top: 0;
+  z-index: 99;
+  text-align: left;
+  font-size: var(--fs-36);
+  color: var(--color-white);
+  font-family: var(--font-big-shoulders-stencil-display);
+}
+.locofy_frame-child4 {
+  height: var(--height-86);
+  width: var(--width-622);
+  position: relative;
+  display: none;
+  z-index: 0;
+}
+.locofy_avong-nen-romy-parent {
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.locofy_avong-nen-romy4,
+.locofy_avong-nen-romy5 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  z-index: 2;
+}
+.locofy_avong-nen-romy5 {
+  z-index: 3;
+  margin: 0 0 0-220px;
+}
+.locofy_magnifyingglass3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  height: var(--height-22);
+  width: var(--width-22);
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  z-index: 2;
+}
+.locofy_rec-two {
+  height: 38px;
+  width: 94px;
+  position: absolute;
+  margin: 0 !important;
+  right: 36px;
+  bottom: 23px;
+  border-radius: var(--br-10);
+  background-color: var(--color-lightgreen);
+  z-index: 2;
+  flex-shrink: 0;
+}
+.locofy_frame-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-6);
+  flex-shrink: 0;
+  font-size: var(--fs-15);
+  color: var(--color-black);
+  font-family: var(--font-agdasima);
+}
+.locofy_frame-group {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+}
+.locofy_frame-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-4);
+}
+.locofy_facebook-container {
+  align-self: stretch;
+  height: var(--height-44);
+  position: relative;
+  z-index: 2;
+}
+.locofy_facebook-icon3 {
+  left: 0;
+}
+.locofy_facebook-icon3,
+.locofy_google-plus-icon3,
+.locofy_linkedin-icon3 {
+  position: absolute;
+  top: 0;
+  width: var(--width-51);
+  height: var(--height-44);
+  object-fit: cover;
+}
+.locofy_google-plus-icon3 {
+  left: 45px;
+  z-index: 1;
+}
+.locofy_linkedin-icon3 {
+  left: 133px;
+}
+.locofy_instagram-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.locofy_instagram-icon3 {
+  position: absolute;
+  top: 0;
+  left: 89px;
+  width: var(--width-51);
+  height: var(--height-44);
+  object-fit: cover;
+  z-index: 2;
+}
+.locofy_group-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.locofy_search-area2 {
+  align-self: stretch;
+  background-color: var(--color-gainsboro);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-5) var(--padding-8) var(--padding-3) var(--padding-11);
+  gap: var(--gap-20);
+  z-index: 3;
+}
+.locofy_search-area-child {
+  height: var(--height-27);
+  width: var(--width-185);
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+  flex-shrink: 0;
+}
+.locofy_search-area-inner {
+  width: var(--width-36);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-1) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.locofy_search-group {
+  align-self: stretch;
+  height: var(--height-18);
+  position: relative;
+}
+.locofy_search4,
+.locofy_search5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 700;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.locofy_search4 {
+  border: 0;
+  outline: 0;
+  font-family: var(--font-agdasima);
+  font-size: var(--fs-15);
+  background-color: transparent;
+  color: var(--color-black);
+  text-align: left;
+  padding: var(--padding-01);
+  z-index: 4;
+}
+.locofy_search5 {
+  margin: 0;
+  font-size: inherit;
+  font-family: inherit;
+  min-width: var(--min-w-36);
+  z-index: 5;
+}
+.locofy_vector-icon2 {
+  height: var(--height-17_9);
+  width: var(--width-17_9);
+  position: relative;
+  z-index: 5;
+  flex-shrink: 0;
+}
+.locofy_sign-in-wrapper {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 29px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  font-size: var(--fs-24);
+  color: var(--color-white);
+  font-family: var(--font-caesar-dressing);
+}
+.locofy_sign-in {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: var(--text-shadow-1);
+  z-index: 3;
+}
+.locofy_inicio-bandeja-de-entrada-inner2 {
+  width: 463px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 44px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-40);
+  color: var(--color-white);
+  font-family: var(--font-caesar-dressing);
+}
+.locofy_frame-parent2 {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  max-width: 100%;
+}
+.locofy_join-us-parent {
+  display: flex;
+  align-items: flex-start;
+}
+.locofy_join-us,
+.locofy_join-us2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: var(--text-shadow-1);
+  z-index: 4;
+}
+.locofy_join-us2 {
+  z-index: 5;
+  margin: 0 0 0-120px;
+}
+.locofy_social-icons2 {
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) 26px;
+  font-size: var(--fs-24);
+}
+.locofy_about-rec,
+.locofy_social-icons2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.locofy_about-us3,
+.locofy_about-us4 {
+  margin: 0;
+  height: var(--height-87);
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.locofy_about-us4 {
+  z-index: 5;
+  margin: -87px 0 0;
+}
+.locofy_form-container {
+  width: 602px;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-16);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 20px;
+  color: var(--color-white);
+  font-family: var(--font-caesar-dressing);
+}
+.locofy_signup-form {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  gap: 42px;
+  max-width: 100%;
+}
+.locofy_email-rec-parent,
+.locofy_signup-form-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.locofy_signup-form-inner {
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-0) var(--padding-18);
+}
+.locofy_email-rec-parent {
+  align-self: stretch;
+  flex: 1;
+  padding: var(--padding-15) var(--padding-0) 9px;
+  position: relative;
+  isolation: isolate;
+  gap: var(--gap-4);
+}
+.locofy_email-rec {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-20);
+  background-color: var(--color-darkgreen);
+  border: var(--border-1);
+  box-sizing: border-box;
+  cursor: pointer;
+  z-index: 2;
+  flex-shrink: 0;
+}
+.locofy_fields-pair {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 9px var(--padding-6) var(--padding-7);
+  flex-shrink: 0;
+}
+.locofy_sign-up-and {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: var(--text-shadow-1);
+  z-index: 3;
+}
+.locofy_input-field-container {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-10);
+  flex-shrink: 0;
+  font-size: 9px;
+  color: var(--color-dimgray-200);
+}
+.locofy_separator {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 3;
+}
+.locofy_accept-area,
+.locofy_name-fields {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.locofy_accept-area {
+  height: var(--height-21);
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-12) var(--padding-0) var(--padding-15);
+  box-sizing: border-box;
+}
+.locofy_name-fields {
+  flex: 1;
+  gap: var(--gap-3);
+}
+.locofy_input-area,
+.locofy_input-area-child {
+  background-color: var(--color-gainsboro);
+  border: var(--border-1);
+}
+.locofy_input-area {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) var(--padding-7) var(--padding-5);
+  z-index: 3;
+}
+.locofy_input-area-child {
+  height: var(--height-21);
+  width: 77px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+  flex-shrink: 0;
+}
+.locofy_first-name {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-caesar-dressing);
+  font-size: var(--fs-10);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-dimgray-200);
+  text-align: left;
+  display: inline-block;
+  padding: var(--padding-01);
+  z-index: 4;
+  flex-shrink: 0;
+}
+.locofy_signup-button {
+  align-self: stretch;
+  height: var(--height-21);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-10) var(--padding-0) var(--padding-15);
+  box-sizing: border-box;
+}
+.locofy_names-holder-item {
+  height: var(--height-21);
+  width: 159px;
+  position: relative;
+  background-color: var(--color-gainsboro);
+  border: var(--border-1);
+  box-sizing: border-box;
+  display: none;
+  flex-shrink: 0;
+}
+.locofy_fields-pair2,
+.locofy_inputs-holder {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.locofy_inputs-holder {
+  background-color: var(--color-gainsboro);
+  border: var(--border-1);
+  padding: var(--padding-2) var(--padding-6) var(--padding-3);
+  z-index: 3;
+}
+.locofy_fields-pair2 {
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-10) var(--padding-0) var(--padding-15);
+}
+.locofy_frame-parent3 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-4);
+}
+.locofy_rectangle-parent4,
+.locofy_terms-check {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.locofy_rectangle-parent4 {
+  flex: 1;
+  background-color: var(--color-gainsboro);
+  border: var(--border-1);
+  padding: var(--padding-2) var(--padding-7) var(--padding-3);
+  z-index: 3;
+}
+.locofy_terms-check {
+  justify-content: flex-end;
+  padding: var(--padding-0) var(--padding-2) var(--padding-0) var(--padding-6);
+}
+.locofy_agreement-checkbox {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+.locofy_frame-input {
+  margin: 0;
+  height: 10px;
+  width: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-2) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+}
+.locofy_i-accept-the {
+  flex: 1;
+  position: relative;
+  text-shadow: var(--text-shadow-4);
+  z-index: 3;
+}
+.locofy_action-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-0) var(--padding-15);
+  background-color: transparent;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.locofy_frame-child6,
+.locofy_rectangle-parent5 {
+  height: 23px;
+  border-radius: var(--br-20);
+  background-color: var(--color-lightgreen);
+  border: 1px solid var(--color-seagreen-200);
+  box-sizing: border-box;
+}
+.locofy_rectangle-parent5 {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-3) 9px var(--padding-0) var(--padding-15);
+  z-index: 3;
+}
+.locofy_frame-child6 {
+  width: 76px;
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.locofy_sign-up {
+  position: relative;
+  font-size: 13px;
+  font-family: var(--font-caesar-dressing);
+  color: var(--color-white);
+  white-space: pre-wrap;
+  text-align: left;
+  text-shadow: var(--text-shadow-1);
+  z-index: 4;
+  flex-shrink: 0;
+}
+.locofy_target {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 224px;
+  max-width: 100%;
+  font-size: var(--fs-48);
+}
+.locofy_one-target-many2,
+.locofy_one-target-many3 {
+  margin: 0;
+  height: 206px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  -webkit-text-stroke: var(--text-stroke-1);
+  paint-order: stroke fill;
+  z-index: 2;
+}
+.locofy_one-target-many3 {
+  z-index: 3;
+  margin: -206px 0 0;
+}
+@media screen and (max-width: 600px) {
+  .locofy_avong-nen-romy-parent {
+    display: none;
+  }
+  .locofy_signup-form {
+    gap: var(--gap-21);
+    flex-wrap: wrap;
+  }
+  .locofy_signup-form-inner {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .locofy_frame-section {
+    gap: var(--gap-21);
+  }
+  .locofy_inicio-bandeja-de-entrada-inner2 {
+    padding-left: var(--padding-22);
+    padding-right: var(--padding-22);
+    box-sizing: border-box;
+  }
+  .locofy_frame-parent2 {
+    flex-wrap: wrap;
+  }
+  .locofy_about-us3,
+  .locofy_about-us4 {
+    font-size: var(--fs-19);
+  }
+  .locofy_sign-up-and {
+    font-size: var(--fs-16);
+  }
+}

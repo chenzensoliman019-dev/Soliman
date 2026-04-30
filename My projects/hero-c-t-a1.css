@@ -1,0 +1,447 @@
+.locofy_content2,
+.locofy_hero-cta {
+  position: relative;
+  text-align: left;
+  color: var(--color-white);
+}
+.locofy_hero-cta {
+  width: 100%;
+  background-color: var(--color-dimgray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 37px var(--padding-5) 91px;
+  box-sizing: border-box;
+  gap: 9px;
+  line-height: var(--lh-normal);
+  letter-spacing: var(--ls-normal);
+  font-size: var(--fs-40);
+  font-family: var(--font-caesar-dressing);
+}
+.locofy_content2 {
+  align-self: stretch;
+  height: 88px;
+  font-size: var(--fs-36);
+  font-family: var(--font-big-shoulders-stencil-display);
+}
+.locofy_frame-child7,
+.locofy_rectangle-parent6,
+.locofy_rectangle-parent7 {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-20);
+  background-color: var(--color-seagreen-200);
+  width: 100%;
+}
+.locofy_rectangle-parent6 {
+  top: 2px;
+  height: var(--height-86);
+  cursor: pointer;
+}
+.locofy_frame-child7,
+.locofy_rectangle-parent7 {
+  top: 0;
+  height: 100%;
+}
+.locofy_frame-child7 {
+  display: none;
+}
+.locofy_rectangle-parent7 {
+  cursor: pointer;
+  z-index: 1;
+}
+.locofy_rectangle-parent10,
+.locofy_rectangle-parent11,
+.locofy_rectangle-parent12,
+.locofy_rectangle-parent13,
+.locofy_rectangle-parent8,
+.locofy_rectangle-parent9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-20);
+  background-color: var(--color-seagreen-200);
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 2;
+}
+.locofy_rectangle-parent10,
+.locofy_rectangle-parent11,
+.locofy_rectangle-parent12,
+.locofy_rectangle-parent13,
+.locofy_rectangle-parent9 {
+  z-index: 3;
+}
+.locofy_rectangle-parent10,
+.locofy_rectangle-parent11,
+.locofy_rectangle-parent12,
+.locofy_rectangle-parent13 {
+  z-index: 4;
+}
+.locofy_rectangle-parent11,
+.locofy_rectangle-parent12,
+.locofy_rectangle-parent13 {
+  z-index: 5;
+}
+.locofy_rectangle-parent12,
+.locofy_rectangle-parent13 {
+  z-index: 6;
+}
+.locofy_rectangle-parent13 {
+  z-index: 7;
+}
+.locofy_avong-nen-romy-group {
+  position: absolute;
+  top: 33px;
+  left: 31px;
+  width: 220px;
+  height: 43px;
+}
+.locofy_avong-nen-romy6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 8;
+}
+.locofy_avong-nen-romy-container,
+.locofy_avong-nen-romy6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.locofy_avong-nen-romy7,
+.locofy_avong-nen-romy8,
+.locofy_avong-nen-romy9 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  font-weight: 800;
+  font-family: inherit;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+.locofy_avong-nen-romy8,
+.locofy_avong-nen-romy9 {
+  cursor: pointer;
+  z-index: 10;
+}
+.locofy_avong-nen-romy9 {
+  z-index: 11;
+}
+.locofy_frame-child15,
+.locofy_rectangle-parent14 {
+  position: absolute;
+  background-color: var(--color-gainsboro);
+}
+.locofy_rectangle-parent14 {
+  top: 43px;
+  left: 293px;
+  width: var(--width-185);
+  height: var(--height-27);
+  z-index: 9;
+}
+.locofy_frame-child15 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.locofy_search-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  width: var(--width-36);
+  height: var(--height-18);
+}
+.locofy_search6,
+.locofy_search7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--fs-15);
+  display: inline-block;
+  font-family: var(--font-agdasima);
+  color: var(--color-black);
+  text-align: left;
+  width: 100%;
+  height: 100%;
+}
+.locofy_search6 {
+  border: 0;
+  outline: 0;
+  max-width: 100%;
+  background-color: transparent;
+  font-weight: 700;
+  padding: var(--padding-01);
+  z-index: 10;
+}
+.locofy_search7 {
+  min-width: var(--min-w-36);
+  z-index: 11;
+}
+.locofy_vector-parent {
+  position: absolute;
+  top: 5px;
+  left: 159px;
+  width: var(--width-17_9);
+  height: var(--height-17_9);
+}
+.locofy_vector-icon3,
+.locofy_vector-icon4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 14;
+}
+.locofy_vector-icon4 {
+  z-index: 15;
+}
+.locofy_magnifyingglass4 {
+  position: absolute;
+  top: 41px;
+  left: 450px;
+  width: var(--width-22);
+  height: var(--height-22);
+  overflow: hidden;
+  z-index: 10;
+}
+.locofy_magnifyingglass5 {
+  z-index: 11;
+}
+.locofy_magnifyingglass5,
+.locofy_magnifyingglass6,
+.locofy_magnifyingglass7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.locofy_magnifyingglass6 {
+  z-index: 12;
+}
+.locofy_magnifyingglass7 {
+  display: none;
+}
+.locofy_facebook-parent2 {
+  position: absolute;
+  top: 11px;
+  left: 293px;
+  width: 138.9px;
+  height: var(--height-30);
+  z-index: 8;
+}
+.locofy_facebook-icon5 {
+  left: 0;
+}
+.locofy_facebook-icon5,
+.locofy_google-plus-icon5,
+.locofy_instagram-icon5,
+.locofy_linkedin-icon5 {
+  position: absolute;
+  top: 0;
+  width: var(--width-38_5);
+  height: var(--height-30);
+  object-fit: cover;
+}
+.locofy_google-plus-icon5 {
+  left: 34px;
+  z-index: 1;
+}
+.locofy_instagram-icon5,
+.locofy_linkedin-icon5 {
+  left: 100.4px;
+}
+.locofy_instagram-icon5 {
+  left: 67.2px;
+  z-index: 2;
+}
+.locofy_facebook-parent3,
+.locofy_facebook-parent4,
+.locofy_facebook-parent5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+.locofy_facebook-parent4,
+.locofy_facebook-parent5 {
+  z-index: 10;
+}
+.locofy_facebook-parent5 {
+  z-index: 11;
+}
+.locofy_profile-parent {
+  position: absolute;
+  top: 0;
+  left: 511px;
+  width: var(--width-90);
+  height: var(--height-77);
+  background-image: url(./public/Profile@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  z-index: 8;
+}
+.locofy_profile-icon2 {
+  display: none;
+}
+.locofy_profile-icon2,
+.locofy_profile-icon3,
+.locofy_profile-icon9 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.locofy_profile-icon9 {
+  z-index: 15;
+}
+.locofy_about-us-wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 155px 19px 372px;
+  text-align: left;
+  font-size: var(--fs-24);
+  color: var(--color-white);
+  font-family: var(--font-caesar-dressing);
+}
+.locofy_about-us5 {
+  height: var(--height-87);
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  z-index: 2;
+}
+.locofy_hero-cta-child {
+  width: var(--width-185);
+  height: var(--height-27);
+  position: relative;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.locofy_airsoft-wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-0) 243px var(--padding-16);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.locofy_airsoft {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  text-shadow: var(--text-shadow-5);
+  z-index: 1;
+}
+.locofy_tactical-content-wrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-20) var(--padding-0) var(--padding-30);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--fs-15);
+}
+.locofy_tactical-content {
+  width: 372px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  isolation: isolate;
+  max-width: 100%;
+}
+.locofy_experience-the-excitement {
+  height: 93px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.locofy_image-6-parent {
+  height: 382px;
+  width: 623px;
+  position: absolute;
+  margin: 0 !important;
+  top: -198px;
+  left: -126px;
+  flex-shrink: 0;
+}
+.locofy_image-6-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-10);
+  width: 646px;
+  height: 504px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.locofy_house-icon3 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  position: absolute;
+  top: 323px;
+  left: 21px;
+  width: var(--width-32);
+  height: 32px;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.locofy_frame-child16 {
+  position: absolute;
+  top: 9px;
+  left: 357px;
+  border-radius: var(--br-10);
+  background-color: var(--color-seagreen-200);
+  width: var(--width-117);
+  height: var(--height-31);
+  z-index: 1;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 600px) {
+  .locofy_airsoft-wrapper {
+    padding-left: 121px;
+    padding-right: 121px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .locofy_about-us-wrapper,
+  .locofy_airsoft-wrapper {
+    padding-left: var(--padding-20);
+    padding-right: var(--padding-20);
+    box-sizing: border-box;
+  }
+}

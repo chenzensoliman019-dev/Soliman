@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./i-phone-pro1.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Agdasima:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Big Shoulders Stencil Display:wght@800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caesar Dressing:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="locofy_iphone-pro">
+      <section class="locofy_frame-parent6">
+        <header class="locofy_rectangle-parent22" id="groupHeader">
+          <div class="locofy_frame-child26"></div>
+          <div class="locofy_element">
+            <h2 class="locofy_avong-nen-romy14" id="avongNenRomy">
+              Avong Nen Romy
+            </h2>
+          </div>
+          <button class="locofy_magnifyingglass14"></button>
+          <div class="locofy_socials">
+            <div class="locofy_connectivity">
+              <div class="locofy_facebook-parent10">
+                <img
+                  class="locofy_facebook-icon13"
+                  alt=""
+                  src="./public/Facebook2@2x.png"
+                />
+
+                <img
+                  class="locofy_google-plus-icon13"
+                  alt=""
+                  src="./public/Google-Plus2@2x.png"
+                />
+
+                <img
+                  class="locofy_instagram-icon13"
+                  alt=""
+                  src="./public/Instagram2@2x.png"
+                />
+
+                <img
+                  class="locofy_linkedin-icon13"
+                  alt=""
+                  src="./public/LinkedIn2@2x.png"
+                />
+              </div>
+              <div class="locofy_rectangle-parent23">
+                <div class="locofy_frame-child27"></div>
+                <div class="locofy_search-parent5">
+                  <input
+                    class="locofy_search12"
+                    placeholder="search"
+                    type="text"
+                  />
+
+                  <b class="locofy_search13">search</b>
+                </div>
+                <img
+                  class="locofy_vector-icon9"
+                  alt=""
+                  src="./public/Search-Icon.svg"
+                />
+              </div>
+            </div>
+          </div>
+          <img
+            class="locofy_profile-icon18"
+            loading="lazy"
+            alt=""
+            src="./public/Profile@2x.png"
+          />
+        </header>
+        <div class="locofy_details">
+          <button class="locofy_company">
+            <div class="locofy_company-child"></div>
+            <h3 class="locofy_about-us7" id="aboutUsText">about us<br /></h3>
+          </button>
+        </div>
+      </section>
+      <section class="locofy_competition-wrapper">
+        <div class="locofy_competition">
+          <div class="locofy_activity">
+            <h1 class="locofy_target-throwing">TARGET THROWING</h1>
+          </div>
+          <div class="locofy_targeting">
+            <iframe class="locofy_image-5"> </iframe>
+            <div class="locofy_step-into-the">
+              Step into the zone and master the art of throwing. From knives and
+              axes to shurikens, this activity is all about control, timing, and
+              precision. Feel the impact as your throw hits the mark—perfect for
+              thrill-seekers and those looking to sharpen their skills.
+            </div>
+          </div>
+        </div>
+      </section>
+      <button class="locofy_house-frame">
+        <img
+          class="locofy_house-icon5"
+          loading="lazy"
+          alt=""
+          src="./public/House.svg"
+          id="houseIcon"
+        />
+      </button>
+    </div>
+
+    <script>
+      var avongNenRomy = document.getElementById("avongNenRomy");
+      if (avongNenRomy) {
+        avongNenRomy.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      
+      var groupHeader = document.getElementById("groupHeader");
+      if (groupHeader) {
+        groupHeader.addEventListener("click", function (e) {
+          window.location.href = "./page.html";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function () {
+          window.open("https://www.facebook.com/AvongRomy");
+        });
+      }
+      
+      var houseIcon = document.getElementById("houseIcon");
+      if (houseIcon) {
+        houseIcon.addEventListener("click", function (e) {
+          window.location.href = "./homepage1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
